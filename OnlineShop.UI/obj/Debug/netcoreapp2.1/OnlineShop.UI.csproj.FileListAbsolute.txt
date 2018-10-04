@@ -36,3 +36,4 @@ E:\Проекты\OnlineShop\OnlineShop.UI\obj\Debug\netcoreapp2.1\Razor\Views\P
 E:\Проекты\OnlineShop\OnlineShop.UI\obj\Debug\netcoreapp2.1\Razor\Views\Products\Index.g.cshtml.cs
 E:\Проекты\OnlineShop\OnlineShop.UI\obj\Debug\netcoreapp2.1\Razor\Views\Products\Partials\ProductDetails.g.cshtml.cs
 E:\Проекты\OnlineShop\OnlineShop.UI\obj\Debug\netcoreapp2.1\Razor\Views\Products\Update.g.cshtml.cs
+E:\Проекты\OnlineShop\OnlineShop.UI\obj\Debug\netcoreapp2.1\Razor\Views\Report\Index.g.cshtml.cs

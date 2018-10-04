@@ -1,0 +1,72 @@
+﻿@model System.Collections.Generic.List<Product>
+@{
+    ViewData["Title"] = "Report";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+@if (Model != null)
+{
+    long counter = 0;
+    foreach (var category in Model.GroupBy(x => x.Category))
+    {
+        <hr />
+        <table class="GeneratedTable">
+            <thead>
+                <tr>
+                    <th>CATEGORY @category.Key.ToString()</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in category.Where(x => x.Category == Category.Hats))
+                {
+                    counter++;
+                    <tr>
+                        <th>[ID] @counter | [NAME] @product.Name | [PRICE] @product.Price$</th>
+                    </tr>
+                }
+                @{counter = 0;}
+                @foreach (var product in category.Where(x => x.Category == Category.Pants))
+                {
+                    counter++;
+                    <tr>
+                        <th>[ID] @counter | [NAME] @product.Name | [PRICE] @product.Price$</th>
+                    </tr>
+                }
+                @{counter = 0;}
+                @foreach (var product in category.Where(x => x.Category == Category.Wear))
+                {
+                    counter++;
+                    <tr>
+                        <th>[ID] @counter | [NAME] @product.Name | [PRICE] @product.Price$</th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+@{
+    <style>
+        table.GeneratedTable {
+            width: 100%;
+            background-color: #ffffff;
+            border-collapse: collapse;
+            border-width: 2mm;
+            border-color: #400040;
+            border-style: solid;
+            color: #000000;
+        }
+
+            table.GeneratedTable td, table.GeneratedTable th {
+                border-width: 2mm;
+                border-color: #400040;
+                border-style: solid;
+                padding: 3mm;
+            }
+
+            table.GeneratedTable thead {
+                background-color: #4e4e4e;
+            }
+    </style>
+}

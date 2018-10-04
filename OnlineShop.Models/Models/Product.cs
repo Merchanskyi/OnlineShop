@@ -7,6 +7,7 @@ namespace OnlineShop.Models
     {
         public Guid Id { get; set; }
 
+        [EnumDataType(typeof(Category))]
         public Category Category { get; set; }
 
         [Required]

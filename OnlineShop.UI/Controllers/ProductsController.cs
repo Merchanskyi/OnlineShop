@@ -38,9 +38,14 @@ namespace OnlineShop.UI.Controllers
         [HttpPost]
         public async Task<ActionResult> Create(Product product)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(product);
+            }
+
             await _httpProductProvider.AddAsync(product);
 
-            return View();
+            return RedirectToAction("index");
         }
 
         [HttpPost]
@@ -59,6 +64,11 @@ namespace OnlineShop.UI.Controllers
         [HttpPost]
         public async Task<ActionResult> Update(Product product)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(product);
+            }
+
             await _httpProductProvider.UpdateAsync(product);
 
             return RedirectToAction("index");
