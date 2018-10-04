@@ -1,0 +1,17 @@
+E:\Проекты\OnlineShop\OnlineShop.API\bin\Debug\netcoreapp2.1\OnlineShop.API.deps.json
+E:\Проекты\OnlineShop\OnlineShop.API\bin\Debug\netcoreapp2.1\OnlineShop.API.runtimeconfig.json
+E:\Проекты\OnlineShop\OnlineShop.API\bin\Debug\netcoreapp2.1\OnlineShop.API.runtimeconfig.dev.json
+E:\Проекты\OnlineShop\OnlineShop.API\bin\Debug\netcoreapp2.1\OnlineShop.API.dll
+E:\Проекты\OnlineShop\OnlineShop.API\bin\Debug\netcoreapp2.1\OnlineShop.API.pdb
+E:\Проекты\OnlineShop\OnlineShop.API\bin\Debug\netcoreapp2.1\OnlineShop.Models.dll
+E:\Проекты\OnlineShop\OnlineShop.API\bin\Debug\netcoreapp2.1\OnlineShop.Models.pdb
+E:\Проекты\OnlineShop\OnlineShop.API\obj\Debug\netcoreapp2.1\OnlineShop.API.csprojAssemblyReference.cache
+E:\Проекты\OnlineShop\OnlineShop.API\obj\Debug\netcoreapp2.1\OnlineShop.API.csproj.CoreCompileInputs.cache
+E:\Проекты\OnlineShop\OnlineShop.API\obj\Debug\netcoreapp2.1\OnlineShop.API.RazorAssemblyInfo.cache
+E:\Проекты\OnlineShop\OnlineShop.API\obj\Debug\netcoreapp2.1\OnlineShop.API.RazorAssemblyInfo.cs
+E:\Проекты\OnlineShop\OnlineShop.API\obj\Debug\netcoreapp2.1\OnlineShop.API.AssemblyInfoInputs.cache
+E:\Проекты\OnlineShop\OnlineShop.API\obj\Debug\netcoreapp2.1\OnlineShop.API.AssemblyInfo.cs
+E:\Проекты\OnlineShop\OnlineShop.API\obj\Debug\netcoreapp2.1\OnlineShop.API.RazorTargetAssemblyInfo.cache
+E:\Проекты\OnlineShop\OnlineShop.API\obj\Debug\netcoreapp2.1\OnlineShop.API.csproj.CopyComplete
+E:\Проекты\OnlineShop\OnlineShop.API\obj\Debug\netcoreapp2.1\OnlineShop.API.dll
+E:\Проекты\OnlineShop\OnlineShop.API\obj\Debug\netcoreapp2.1\OnlineShop.API.pdb

@@ -1,0 +1,13 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h2>Update this product</h2>
+
+@using (Html.BeginForm("Update"))
+{
+    await Html.RenderPartialAsync("Partials/ProductDetails", Model);
+    <input type="submit" value="Update" />
+}

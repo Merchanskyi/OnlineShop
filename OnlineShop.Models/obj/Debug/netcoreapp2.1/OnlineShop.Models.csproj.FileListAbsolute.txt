@@ -1,0 +1,9 @@
+E:\Проекты\OnlineShop\OnlineShop.Models\bin\Debug\netcoreapp2.1\OnlineShop.Models.deps.json
+E:\Проекты\OnlineShop\OnlineShop.Models\bin\Debug\netcoreapp2.1\OnlineShop.Models.dll
+E:\Проекты\OnlineShop\OnlineShop.Models\bin\Debug\netcoreapp2.1\OnlineShop.Models.pdb
+E:\Проекты\OnlineShop\OnlineShop.Models\obj\Debug\netcoreapp2.1\OnlineShop.Models.csproj.CoreCompileInputs.cache
+E:\Проекты\OnlineShop\OnlineShop.Models\obj\Debug\netcoreapp2.1\OnlineShop.Models.AssemblyInfoInputs.cache
+E:\Проекты\OnlineShop\OnlineShop.Models\obj\Debug\netcoreapp2.1\OnlineShop.Models.AssemblyInfo.cs
+E:\Проекты\OnlineShop\OnlineShop.Models\obj\Debug\netcoreapp2.1\OnlineShop.Models.dll
+E:\Проекты\OnlineShop\OnlineShop.Models\obj\Debug\netcoreapp2.1\OnlineShop.Models.pdb
+E:\Проекты\OnlineShop\OnlineShop.Models\obj\Debug\netcoreapp2.1\OnlineShop.Models.csprojAssemblyReference.cache

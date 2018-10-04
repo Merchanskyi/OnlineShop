@@ -1,0 +1,26 @@
+﻿@using OnlineShop.Models
+
+@model Product
+
+<table>
+    <tr>
+        <td>Category:</td>
+        <td>
+            @Html.DropDownListFor(c => c.Category, Html.GetEnumSelectList<Category>(), "Select Category")
+        </td>
+    </tr>
+    <tr>
+        <td>Name:</td>
+        <td>
+            @Html.TextBoxFor(n => n.Name)
+            @Html.ValidationMessageFor(n => n.Name)
+        </td>
+    </tr>
+    <tr>
+        <td>Price:</td>
+        <td>
+            @Html.TextBoxFor(p => p.Price)
+            @Html.ValidationMessageFor(p => p.Price)
+        </td>
+    </tr>
+</table>

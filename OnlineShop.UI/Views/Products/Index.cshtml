@@ -1,0 +1,72 @@
+﻿@model System.Collections.Generic.List<Product>
+@{
+    ViewData["Title"] = "Shop";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<table class="GeneratedTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>UPDATE</th>
+            <th>NAME</th>
+            <th>PRICE</th>
+            <th>CATEGORY</th>
+            <th>DELETE</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var product in Model)
+            {
+                <tr>
+                    <th>@product.Id</th>
+                    <th>
+                        @Html.ActionLink("Update", "Update", "Products", new { Id = product.Id })
+                    </th>
+                    <th>@product.Name</th>
+                    <th>@product.Price$</th>
+                    <th>@product.Category.ToString()</th>
+                    <th>
+                        @using (Html.BeginForm("Delete", "Products"))
+                        {
+                            <input name="Id" value="@product.Id" hidden />
+                            <input type="submit" value="Delete" />
+                        }
+                    </th>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<hr />
+
+@Html.ActionLink("Add", "Create")
+
+@{
+    <style>
+        table.GeneratedTable {
+            width: 100%;
+            background-color: #ffffff;
+            border-collapse: collapse;
+            border-width: 2mm;
+            border-color: #400040;
+            border-style: solid;
+            color: #000000;
+        }
+
+            table.GeneratedTable td, table.GeneratedTable th {
+                border-width: 2mm;
+                border-color: #400040;
+                border-style: solid;
+                padding: 3mm;
+            }
+
+            table.GeneratedTable thead {
+                background-color: #4e4e4e;
+            }
+    </style>
+}
